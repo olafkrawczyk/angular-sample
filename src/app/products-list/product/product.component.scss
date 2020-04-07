@@ -1,0 +1,45 @@
+@import '../../../styles/colors.scss';
+
+.container {
+  width: 216px;
+  height: 302px;
+  box-shadow: 0px 10px 15px rgba($BLACK, 0.02);
+}
+
+.details {
+  background-color: $WHITE;
+  height: 86px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin: {
+    bottom: 13px;
+  }
+}
+
+.description {
+  color: $GRAY;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.preview {
+  width: 216px;
+  height: 216px;
+  background-image: url('../../../assets/product.png');
+  background-position: center;
+  background-size: 300px auto;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-size: 320px auto;
+  }
+}

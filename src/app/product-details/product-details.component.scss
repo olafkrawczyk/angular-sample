@@ -1,0 +1,63 @@
+@import '../../styles/colors.scss';
+
+.container {
+  width: 100%;
+  box-shadow: 0px 10px 15px rgba($BLACK, 0.02);
+}
+
+.description {
+  background-color: $DENIM;
+  min-height: 187px;
+  padding: 0 52px;
+  padding-top: 35px;
+}
+
+.image {
+  height: 472px;
+  background-image: url('../../assets/product.png');
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.description-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: $WHITE;
+  margin-bottom: 15px;
+}
+
+.description-text {
+  display: block;
+  font-family: 'Lato';
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba($WHITE, 0.79);
+  max-width: 512px;
+  text-align: justify;
+}
+
+.add-button {
+  width: 230px;
+  height: 47px;
+  background-color: $SHAMROCK;
+  color: $WHITE;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

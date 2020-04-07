@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="header">
+    <img class="header-image" src="assets/icons/phone-book-white.png" />
+    Contact
+  </div>
+  <div class="text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus est,
+    placerat sed ante vel, ultrices congue augue.
+  </div>
+  <div class="header">
+    <img class="header-image" src="assets/icons/shopping-cart-white.png" />
+    Cart
+  </div>
+  <div class="products-list">
+    <div *ngIf="cart.length; else emptyCartMessage">
+      <app-shopping-cart-item
+        *ngFor="let product of cart"
+        [product]="product"
+      ></app-shopping-cart-item>
+    </div>
+  </div>
+</div>
+
+<ng-template #emptyCartMessage>
+  <span class="empty-message">Cart is empty</span>
+</ng-template>

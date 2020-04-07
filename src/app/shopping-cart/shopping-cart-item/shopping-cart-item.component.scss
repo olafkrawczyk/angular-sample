@@ -1,0 +1,32 @@
+@import '../../../styles/colors.scss';
+
+.container {
+  display: flex;
+  height: 39px;
+  width: 100%;
+  padding: 0 7px;
+  background-color: $TORY_BLUE;
+  color: $WHITE;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $SHAMROCK;
+  margin-right: 10px;
+}

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/tachyons-sass/tachyons.scss';
+@import './styles/colors';
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: $ALABASTER;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: $TUNDORA;
+}

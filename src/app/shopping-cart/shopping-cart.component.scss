@@ -1,0 +1,55 @@
+@import '../../styles/colors.scss';
+
+.container {
+  width: 262px;
+  min-height: 371px;
+  background: $DENIM;
+  box-shadow: 0px 10px 15px rgba($BLACK, 0.02);
+  padding: 29px 24px;
+}
+
+.products-list {
+  width: 209px;
+  min-height: 131px;
+  max-height: 422px;
+  overflow-y: scroll;
+  border: 1px dashed $WHITE;
+  padding: {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+  }
+}
+
+.header {
+  display: flex;
+  color: $WHITE;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: $WHITE;
+  font-family: 'Lato';
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba($WHITE, 0.79);
+  margin-bottom: 25px;
+}
+
+.header-image {
+  display: inline-block;
+  width: 24px;
+  height: auto;
+  margin: {
+    right: 20px;
+  }
+}
+
+.empty-message {
+  color: $WHITE;
+}
+

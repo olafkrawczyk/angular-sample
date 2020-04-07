@@ -1,0 +1,61 @@
+@import '../../styles/colors.scss';
+
+.container {
+  height: 91px;
+  border-bottom: 1px solid $ALTO;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: {
+    left: 57px;
+    right: 57px;
+  }
+  margin-bottom: 70px;
+  :not(:first-child) {
+    justify-self: flex-end;
+  }
+}
+
+.logo {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: $DOVE_GRAY;
+  display: inline-block;
+  justify-self: flex-start;
+  margin-right: auto;
+}
+
+.search {
+  height: 100%;
+  width: 90px;
+  background-color: $WILD_SAND;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  width: 17px;
+  height: auto;
+}
+
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: $TUNDORA;
+  margin: 0 23px;
+
+  &:active, &:hover, &:visited, &:focus {
+    outline: none;
+  }
+}
+
+.active-link {
+  color: $DENIM;
+}
